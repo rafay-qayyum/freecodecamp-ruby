@@ -98,12 +98,3 @@ puts 10 / 7.0
 
 # if two number are of different precision, the answer will be returned in higher precision.
 
-
-####  Getting input from user  ####
-puts "Enter your name: "
-name = gets
-puts "Hello "+ name + ", you are cool!"
-
-name = gets.chomp()
-# to fix that use .chomp
-puts "Hello "+ name + ", you are cool!"
